@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kunal Umaji is an M.S. (Research) student in Computer Science and Engineering at IIT Madras."
+    />
+    <title>Kunal Umaji</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="profile" id="about">
+        <img
+          class="profile-photo"
+          src="assets/profile-placeholder.svg"
+          alt="Placeholder for a portrait of Kunal Umaji"
+          width="210"
+          height="240"
+        />
+
+        <div class="profile-details">
+          <h1>Kunal Umaji</h1>
+          <p class="role">M.S. (Research) Student</p>
+          <p>
+            Department of Computer Science and Engineering<br />
+            Indian Institute of Technology Madras
+          </p>
+          <p class="contact">
+            <a href="mailto:kunalumaji@gmail.com">Email</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://github.com/kunalumaji">GitHub</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://linkedin.com/in/kunal-umaji">LinkedIn</a>
+          </p>
+        </div>
+      </header>
+
+      <nav class="navigation" aria-label="Page sections">
+        <a href="#about">About</a>
+        <span aria-hidden="true">·</span>
+        <a href="#projects">Projects</a>
+        <span aria-hidden="true">·</span>
+        <a href="#background">Background</a>
+      </nav>
+
+      <section class="introduction" aria-label="Introduction">
+        <p>
+          I am an M.S. (Research) student in Computer Science and Engineering at
+          <a href="https://www.iitm.ac.in/">IIT Madras</a>, advised by
+          Prof. Srinivas NG.
+        </p>
+        <p>
+          My research focuses on high-performance packet processing. I am exploring how
+          data-level parallelism can improve the performance of software network functions,
+          and how compiler-assisted techniques can make these optimizations easier to apply
+          with less architecture-specific programming. More broadly, I am interested in
+          systems and compiler techniques for building efficient and portable packet-processing
+          applications.
+        </p>
+        <!-- <p>
+          Before joining IIT Madras, I worked as a software developer at Globatech India.
+        </p> -->
+      </section>
+
+      <section id="projects">
+        <h2>Selected projects</h2>
+
+        <article class="project">
+          <h3>
+            <a href="https://github.com/FardeenCODEIIEST/L4S-CS6045-Project">
+              L4S-Aware DualQ Queueing Prototype
+            </a>
+          </h3>
+          <p class="meta">P4, BMv2, Mininet, Python · May 2026</p>
+          <p>
+            Developed an L4S-aware scheduler on a BMv2 software switch, classifying
+            traffic using ECN codepoints and approximating DualQ Coupled AQM with
+            configurable queue-aware marking. Evaluated latency and fairness using
+            controlled traffic experiments.
+          </p>
+        </article>
+
+        <article class="project">
+          <h3>
+            <a href="https://github.com/Mr-Daker/Multi-Word-Compare-and-Swap">
+              Multi-Word Compare-and-Swap in OCaml 5
+            </a>
+          </h3>
+          <p class="meta">OCaml 5, QCheck · April 2026</p>
+          <p>
+            Implemented a descriptor-based MCAS primitive and used it to build an atomic
+            snapshot object and lock-free linked lists. Tested correctness using
+            linearizability and model-based testing.
+          </p>
+        </article>
+
+        <article class="project">
+          <h3>
+            <a href="https://github.com/kunalumaji/network_security_project">
+              Secure Communication Framework with Hierarchical CA
+            </a>
+          </h3>
+          <p class="meta">C, OpenSSL · November 2025</p>
+          <p>
+            Built a peer-to-peer messaging system with hierarchical certificate authorities,
+            mutual X.509 authentication, and time-bound AES session keys.
+          </p>
+        </article>
+      </section>
+
+      <section id="background">
+        <h2>Background</h2>
+        <dl class="history">
+          <div>
+            <dt>2025–present</dt>
+            <dd>
+              <strong>M.S. (Research) in Computer Science and Engineering</strong><br />
+              Indian Institute of Technology Madras
+            </dd>
+          </div>
+          <div>
+            <dt>2023–2024</dt>
+            <dd>
+              <strong>Software Developer</strong><br />
+              Globatech India Private Ltd.
+            </dd>
+          </div>
+          <div>
+            <dt>2019–2023</dt>
+            <dd>
+              <strong>B.E. in Computer Engineering</strong><br />
+              Savitribai Phule Pune University
+            </dd>
+          </div>
+        </dl>
+
+        <p class="small-note">
+          At IIT Madras, I have also served as a teaching assistant for Discrete Mathematics
+          and Introduction to Computer Networks.
+        </p>
+      </section>
+
+      <footer>
+        <p>Last updated June 2026.</p>
+      </footer>
+    </main>
+  </body>
+</html>
