@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 218" role="img" aria-labelledby="title description">
-  <title id="title">Portrait placeholder</title>
-  <desc id="description">A simple placeholder with the initials KU</desc>
-  <rect width="190" height="218" fill="#e9ecef"/>
-  <circle cx="95" cy="76" r="35" fill="#c8cfd5"/>
-  <path d="M39 218c2-51 23-78 56-78s54 27 56 78" fill="#c8cfd5"/>
-  <text x="95" y="202" fill="#69747d" font-family="Georgia,serif" font-size="15" text-anchor="middle">KU</text>
-</svg>

@@ -46,8 +46,9 @@ a:hover {
 
 .profile-photo {
   width: 190px;
-  height: 218px;
+  height: 190px;
   object-fit: cover;
+  object-position: center;
   border-radius: 2px;
 }
 
@@ -201,7 +202,7 @@ footer p {
 
   .profile-photo {
     width: 108px;
-    height: 124px;
+    height: 108px;
   }
 
   h1 {

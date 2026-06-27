@@ -13,7 +13,7 @@ Open `http://localhost:8000`.
 
 ## Personalize
 
-- Replace `assets/profile-placeholder.svg` with your photograph and update the image path in `index.html`.
+- Replace `assets/profile.jpg` with a square-cropped photograph when needed.
 - Review the short introduction and research description.
 - Add a Publications section only when there is something substantive to list.
 
