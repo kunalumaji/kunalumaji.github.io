@@ -42,7 +42,13 @@
       <nav class="navigation" aria-label="Page sections">
         <a href="#about">About</a>
         <span aria-hidden="true">·</span>
+        <a href="#publications">Publications</a>
+        <span aria-hidden="true">·</span>
         <a href="#projects">Projects</a>
+        <span aria-hidden="true">·</span>
+        <a href="#teaching">Teaching</a>
+        <span aria-hidden="true">·</span>
+        <a href="#awards">Awards</a>
         <span aria-hidden="true">·</span>
         <a href="#background">Background</a>
       </nav>
@@ -51,7 +57,7 @@
         <p>
           I am an M.S. (Research) student in Computer Science and Engineering at
           <a href="https://www.iitm.ac.in/">IIT Madras</a>, advised by
-          Prof. Srinivas NG.
+          <a href="https://people.cs.rutgers.edu/~sn624/">Prof. Srinivas NG.</a>
         </p>
         <p>
           My research focuses on high-performance packet processing. I am exploring how
@@ -66,8 +72,26 @@
         </p> -->
       </section>
 
+      <section id="publications">
+        <h2>Publications</h2>
+
+        <article class="publication">
+          <h3>
+            Uncovering SIMD Parallelism in CPU Packet Processing using the NIC as a
+            Vector Co-Processor
+          </h3>
+          <p>
+            K. Umaji, B. Shreyas, Y. Toshniwal, Y. Mehta, A. Sivaraman,
+            S. Narayana
+          </p>
+          <p class="meta">
+            ACM Workshop on Hot Topics in Networks (HotNets 2026) · To appear
+          </p>
+        </article>
+      </section>
+
       <section id="projects">
-        <h2>Selected projects</h2>
+        <h2>Course projects</h2>
 
         <article class="project">
           <h3>
@@ -75,7 +99,10 @@
               L4S-Aware DualQ Queueing Prototype
             </a>
           </h3>
-          <p class="meta">P4, BMv2, Mininet, Python · May 2026</p>
+          <p class="meta">
+            Software Defined Networks (Prof. Srinivas Narayana) ·
+            P4, BMv2, Mininet, Python · May 2026
+          </p>
           <p>
             Developed an L4S-aware scheduler on a BMv2 software switch, classifying
             traffic using ECN codepoints and approximating DualQ Coupled AQM with
@@ -90,7 +117,10 @@
               Multi-Word Compare-and-Swap in OCaml 5
             </a>
           </h3>
-          <p class="meta">OCaml 5, QCheck · April 2026</p>
+          <p class="meta">
+            Concurrent Programming (Prof. K.C. Sivaramakrishnan) ·
+            OCaml 5, QCheck · April 2026
+          </p>
           <p>
             Implemented a descriptor-based MCAS primitive and used it to build an atomic
             snapshot object and lock-free linked lists. Tested correctness using
@@ -104,12 +134,39 @@
               Secure Communication Framework with Hierarchical CA
             </a>
           </h3>
-          <p class="meta">C, OpenSSL · November 2025</p>
+          <p class="meta">
+            Network Security (Prof. Krishna Moorthy Sivalingam) ·
+            C, OpenSSL · November 2025
+          </p>
           <p>
             Built a peer-to-peer messaging system with hierarchical certificate authorities,
             mutual X.509 authentication, and time-bound AES session keys.
           </p>
         </article>
+      </section>
+
+      <section id="teaching">
+        <h2>Teaching</h2>
+        <p>I have served as a teaching assistant at IIT Madras for the following courses:</p>
+        <ul class="compact-list">
+          <li>Operating Systems (current)</li>
+          <li>Introduction to Computer Networks</li>
+          <li>Discrete Mathematics</li>
+        </ul>
+      </section>
+
+      <section id="awards">
+        <h2>Awards</h2>
+        <ul class="compact-list">
+          <li>
+            <strong>Star TA Award</strong>, Introduction to Computer Networks,
+            Department of CSE, IIT Madras, 2026
+          </li>
+          <li>
+            <strong>Exceptional Performance Award</strong>, Globatech Ltd.,
+            2023
+          </li>
+        </ul>
       </section>
 
       <section id="background">
@@ -126,7 +183,7 @@
             <dt>2023–2024</dt>
             <dd>
               <strong>Software Developer</strong><br />
-              Globatech India Private Ltd.
+              Globatech Ltd.
             </dd>
           </div>
           <div>
@@ -137,15 +194,10 @@
             </dd>
           </div>
         </dl>
-
-        <p class="small-note">
-          At IIT Madras, I have also served as a teaching assistant for Discrete Mathematics
-          and Introduction to Computer Networks.
-        </p>
       </section>
 
       <footer>
-        <p>Last updated June 2026.</p>
+        <p>Last updated October 2026.</p>
       </footer>
     </main>
   </body>

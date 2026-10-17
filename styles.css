@@ -19,7 +19,6 @@ body {
   color: var(--text);
   background: var(--paper);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 17px;
   line-height: 1.55;
 }
 
@@ -61,7 +60,6 @@ p {
 
 h1 {
   margin-bottom: 8px;
-  font-size: 34px;
   line-height: 1.15;
 }
 
@@ -89,7 +87,6 @@ h1 {
   padding: 11px 0;
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
-  font-size: 16px;
 }
 
 .introduction p:last-child {
@@ -105,13 +102,11 @@ h2 {
   margin-bottom: 13px;
   padding-bottom: 4px;
   border-bottom: 1px solid var(--rule);
-  font-size: 24px;
   line-height: 1.3;
 }
 
 h3 {
   margin-bottom: 2px;
-  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -124,22 +119,25 @@ h3 {
   margin-top: 3px;
 }
 
-.project {
+.project,
+.publication {
   margin-top: 22px;
 }
 
-.project:first-of-type {
+.project:first-of-type,
+.publication:first-of-type {
   margin-top: 0;
 }
 
-.project p {
+.project p,
+.publication p {
   margin-bottom: 0;
 }
 
-.project .meta {
+.project .meta,
+.publication .meta {
   margin-bottom: 7px;
   color: var(--muted);
-  font-size: 14px;
 }
 
 .history {
@@ -155,17 +153,10 @@ h3 {
 
 .history dt {
   color: var(--muted);
-  font-size: 15px;
 }
 
 .history dd {
   margin: 0;
-}
-
-.small-note {
-  margin: 22px 0 0;
-  color: var(--muted);
-  font-size: 15px;
 }
 
 footer {
@@ -173,7 +164,6 @@ footer {
   padding-top: 13px;
   border-top: 1px solid var(--rule);
   color: var(--muted);
-  font-size: 13px;
 }
 
 footer p {
@@ -186,10 +176,6 @@ footer p {
 }
 
 @media (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-
   .page {
     width: min(calc(100% - 30px), 850px);
     margin-top: 28px;
@@ -205,13 +191,8 @@ footer p {
     height: 108px;
   }
 
-  h1 {
-    font-size: 29px;
-  }
-
   .profile-details p {
     margin-bottom: 8px;
-    font-size: 14px;
     line-height: 1.4;
   }
 
@@ -231,10 +212,6 @@ footer p {
 
   section {
     margin-top: 32px;
-  }
-
-  h2 {
-    font-size: 22px;
   }
 
   .history > div {
